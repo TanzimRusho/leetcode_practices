@@ -1,3 +1,8 @@
+# critical inputs:
+#
+# input: 2784381467700
+# output: 70896
+
 class Solution:
     def minimumPerimeter(self, neededApples: int) -> int:
         for i in range(10000001):
