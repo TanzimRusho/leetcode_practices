@@ -1,9 +1,7 @@
 from typing import List
-from collections import deque
 
 class Solution:
     def maxMatrixSum(self, matrix: List[List[int]]) -> int:
-        # each row traverse
         n = len(matrix)
         count = 0
         min_ = 100001
@@ -27,11 +25,12 @@ class Solution:
             return sum_ - 2*min_ 
         
 
+# Driver Code
 sn = Solution()    
 print(sn.maxMatrixSum([[-56261,-15288,-59083,-14357,-15751],
-[-48494,-32094,-87818,-33356,-16991],
-[-72395,-48735,-21856,-30471,-80400],
-[-33852,-17577,-88317,-59620,-94630],
-[-69472,-40030,-26429,-69577,-31498]]))
+                        [-48494,-32094,-87818,-33356,-16991],
+                        [-72395,-48735,-21856,-30471,-80400],
+                        [-33852,-17577,-88317,-59620,-94630],
+                        [-69472,-40030,-26429,-69577,-31498]])) 
 
 
