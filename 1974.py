@@ -10,6 +10,7 @@ class Solution:
         
         return moves 
 
+# Driver Code   
 sn = Solution()    
 print(sn.minTimeToType("zjpc"))
 
