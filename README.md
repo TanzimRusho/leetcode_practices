@@ -1,2 +1,3 @@
 # leetcode_practices
-Solutions and practices on LeetCode problems.
+
+Unfinished/Unaccepted Codes to be reviewed in sha Allah.
