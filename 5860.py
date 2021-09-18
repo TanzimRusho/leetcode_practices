@@ -5,7 +5,6 @@ class Solution:
     def findOriginalArray(self, changed: List[int]) -> List[int]:
         if len(changed) % 2 == 1:
             return []
-    
         
         new_list = deque()
 
